@@ -83,7 +83,7 @@ async function _fetch(host: string, method: string, token: string, { path, body,
 
     logger(`\t[${method}] Response data from: ${requestUrl}:`, responseData.body, responseData.status);
 
-    return responseData
+    return responseData;
 }
 
 function buildRequest(host: string, token: string): IRequest {
